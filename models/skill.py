@@ -1,3 +1,4 @@
 class Skill:
-    def __init__(self, name):
+    def __init__(self, id, name):
+        self.id = id
         self.name = name

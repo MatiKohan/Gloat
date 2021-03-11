@@ -25,4 +25,19 @@ skills = [{
     }, {
     'id': 9,
     'name': 'Mongodb'
+    }, {
+    'id': 10,
+    'name': 'CSS'
+    }, {
+    'id': 11,
+    'name': 'HTML'
+    }, {
+    'id': 12,
+    'name': 'Adobe'
+    }, {
+    'id': 13,
+    'name': 'Photoshop'
+    }, {
+    'id': 14,
+    'name': 'Microsoft Office'
     }]

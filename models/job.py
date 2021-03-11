@@ -1,13 +1,15 @@
 class Job:
-    def __init__(self, id, title, skills):
+    def __init__(self, id, title, skills_ids):
         self.id = id
         self.title = title
-        self.skills = skills
+        self.skills_ids = skills_ids
 
-    def add_skill(self, skill):
-        if skill not in self.skill:
-            self.skills.append(skill)
+    # Adds skill to job required skills
+    def add_skill(self, skill_id):
+        if skill_id not in self.skills_ids:
+            self.skills_ids.append(skill)
 
-    def remove_skill(self, skill):
-        if skill in self.skills:
-            self.skills.remove(skill)
+    # Removes skill from job required skills
+    def remove_skill(self, skill_id):
+        if skill_id in self.skills_ids:
+            self.skills_ids.remove(skill_id)

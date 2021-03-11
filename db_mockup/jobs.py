@@ -1,37 +1,37 @@
 jobs = [{
     "id": 1,
     "title": "Full Stack Developer",
-    "skills": ['ReactJS', 'NodeJS']
+    "skills_ids": [4, 5, 9, 6]
 }, {
     "id": 2,
     "title": "Data Engineer",
-    "skills": ['Java', 'mySql']
+    "skills_ids": [1, 6]
 }, {
     "id": 3,
     "title": "Frontend Developer",
-    "skills": ['JavaScript', 'ReactJS']
+    "skills_ids": [2, 4]
 }, {
     "id": 4,
     "title": "Backend Developer",
-    "skills": ['Java', 'NodeJS', 'PHP', 'MongoDB', 'mySql']
+    "skills_ids": [1, 5, 3, 9, 6]
 }, {
     "id": 5,
     "title": "Office Manager",
-    "skills": ['Microsoft Office']
+    "skills_ids": [14]
 }, {
     "id": 6,
     "title": "Data Analyst",
-    "skills": ['mySql', 'Mongodb', 'PostgreSQL']
+    "skills_ids": [6, 9, 7]
 }, {
     "id": 7,
     "title": "BI Developer",
-    "skills": []
+    "skills_ids": [8, 6]
 }, {
     "id": 8,
     "title": "UX/UI Designer",
-    "skills": []
+    "skills_ids": [10, 11]
 }, {
     "id": 9,
-    "title": "Animator",
-    "skills": []
+    "title": "Web Developer",
+    "skills_ids": [11, 10, 2]
 }]
