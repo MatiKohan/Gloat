@@ -20,7 +20,10 @@ git clone https://github.com/MatiKohan/Gloat.git
 
 * Set maximum number of candidates to be returned per job.
 
-* Run locally.
+* Run 
+```bash
+python3 main.py 
+```
 
 
 ## Owner
